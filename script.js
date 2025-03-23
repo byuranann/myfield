@@ -69,7 +69,7 @@ function exportToExcel() {
 
 // Function to send data to Google Sheets
 function sendToGoogleSheets(data) {
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyxcLevlSbzRcMGJ6G51Y2ZVD6dxamfzDMD8wjDSXDwbQSKFBx5mTi17SjHOybzTiK8/exec'; // Replace with your script URL
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzr6RFaoUu-TqgFBLaPMaBmTPmLpF5XB4Wad9O06u_o8v2yGAw88o38jrJEcM8rD3HZ3Q/exec'; // Replace with your script URL
     fetch(scriptURL, {
         method: 'POST',
         mode: 'no-cors',
