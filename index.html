@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Collector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showCurrentLocation()">
+    <header>Location Data Collector</header>
+    <section class="input-wrapper">
+        <label for="fieldNo">Field No.:</label>
+        <input type="text" id="fieldNo" placeholder="Enter Field No.">
+        <button onclick="recordLocation()">Record Location</button>
+        <br><br>
+        <div id="status"></div>
+        <div id="current-location">Current Location: Fetching...</div>
+    </section>
+
+    <!-- Include SheetJS library for Excel export -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
