@@ -9,10 +9,32 @@
 <body onload="showCurrentLocation()">
     <header>Location Data Collector</header>
     <section class="input-wrapper">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter Name">
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" placeholder="Enter Last Name">
+        
+        <label for="no">No.:</label>
+        <select id="no">
+            <option value="">Select No.</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        
         <label for="fieldNo">Field No.:</label>
         <input type="text" id="fieldNo" placeholder="Enter Field No.">
+        
         <button onclick="recordLocation()">Record Location</button>
-        <br><br>
+        
         <div id="status"></div>
         <div id="current-location">Current Location: Fetching...</div>
     </section>
