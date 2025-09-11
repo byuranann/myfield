@@ -84,4 +84,16 @@ body {
             background-color: #f1f8e9;
             color: #33691e;
             border: 1px solid #c8e6c9;
+
+        }
+
+        footer {
+            background: linear-gradient(135deg, var(--gray-dark) 0%, #2c2c2c 100%);
+            color: var(--white);
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: auto;
+            box-shadow: 0 -4px 6px var(--shadow-light);
+            position: relative;
+            z-index: 10;
         }
